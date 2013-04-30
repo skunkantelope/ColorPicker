@@ -18,6 +18,9 @@
 		55939D501724A6AC005F6EA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55939D4F1724A6AC005F6EA1 /* Default-568h@2x.png */; };
 		55939D531724A6AC005F6EA1 /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55939D521724A6AC005F6EA1 /* CPViewController.m */; };
 		55939D561724A6AC005F6EA1 /* CPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55939D541724A6AC005F6EA1 /* CPViewController.xib */; };
+		55939D5D1724AF7B005F6EA1 /* colorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 55939D5C1724AF7B005F6EA1 /* colorWheel.png */; };
+		55939D5F1724D0E3005F6EA1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55939D5E1724D0E3005F6EA1 /* QuartzCore.framework */; };
+		55939D621724F3B0005F6EA1 /* CPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55939D611724F3B0005F6EA1 /* CPImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		55939D511724A6AC005F6EA1 /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
 		55939D521724A6AC005F6EA1 /* CPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
 		55939D551724A6AC005F6EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CPViewController.xib; sourceTree = "<group>"; };
+		55939D5C1724AF7B005F6EA1 /* colorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colorWheel.png; path = "Color Picker/colorWheel.png"; sourceTree = "<group>"; };
+		55939D5E1724D0E3005F6EA1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		55939D601724F3B0005F6EA1 /* CPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPImageView.h; sourceTree = "<group>"; };
+		55939D611724F3B0005F6EA1 /* CPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55939D5F1724D0E3005F6EA1 /* QuartzCore.framework in Frameworks */,
 				55939D3A1724A6AC005F6EA1 /* UIKit.framework in Frameworks */,
 				55939D3C1724A6AC005F6EA1 /* Foundation.framework in Frameworks */,
 				55939D3E1724A6AC005F6EA1 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +64,7 @@
 		55939D2D1724A6AC005F6EA1 = {
 			isa = PBXGroup;
 			children = (
+				55939D5C1724AF7B005F6EA1 /* colorWheel.png */,
 				55939D3F1724A6AC005F6EA1 /* Color Picker */,
 				55939D381724A6AC005F6EA1 /* Frameworks */,
 				55939D371724A6AC005F6EA1 /* Products */,
@@ -73,6 +82,7 @@
 		55939D381724A6AC005F6EA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55939D5E1724D0E3005F6EA1 /* QuartzCore.framework */,
 				55939D391724A6AC005F6EA1 /* UIKit.framework */,
 				55939D3B1724A6AC005F6EA1 /* Foundation.framework */,
 				55939D3D1724A6AC005F6EA1 /* CoreGraphics.framework */,
@@ -88,6 +98,8 @@
 				55939D511724A6AC005F6EA1 /* CPViewController.h */,
 				55939D521724A6AC005F6EA1 /* CPViewController.m */,
 				55939D541724A6AC005F6EA1 /* CPViewController.xib */,
+				55939D601724F3B0005F6EA1 /* CPImageView.h */,
+				55939D611724F3B0005F6EA1 /* CPImageView.m */,
 				55939D401724A6AC005F6EA1 /* Supporting Files */,
 			);
 			path = "Color Picker";
@@ -164,6 +176,7 @@
 				55939D4E1724A6AC005F6EA1 /* Default@2x.png in Resources */,
 				55939D501724A6AC005F6EA1 /* Default-568h@2x.png in Resources */,
 				55939D561724A6AC005F6EA1 /* CPViewController.xib in Resources */,
+				55939D5D1724AF7B005F6EA1 /* colorWheel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +190,7 @@
 				55939D461724A6AC005F6EA1 /* main.m in Sources */,
 				55939D4A1724A6AC005F6EA1 /* CPAppDelegate.m in Sources */,
 				55939D531724A6AC005F6EA1 /* CPViewController.m in Sources */,
+				55939D621724F3B0005F6EA1 /* CPImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

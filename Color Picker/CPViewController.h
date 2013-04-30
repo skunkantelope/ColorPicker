@@ -6,8 +6,10 @@
 //  Copyright (c) 2013 Pony Studio. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@interface CPViewController : UIViewController <UIScrollViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
-@interface CPViewController : UIViewController
+- (IBAction)pickPhotoFromPhotoAlbum:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *colorVignette;
 
 @end
